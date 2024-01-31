@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@600;700&display=swap');
 
 .body {
-    color: #FFFFFF;
+    color: white;
     min-height: 90vh;
     background: rgb(0, 0, 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(1, 8, 14, 1) 25%, rgba(206, 0, 96, 0.85) 50%, rgba(1, 8, 14, 1) 75%, rgba(0, 0, 0, 1) 100%);
@@ -76,12 +76,13 @@
 }
 
 .dashboard__items__item {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     font-family: 'Inter', sans-serif;
     padding: 40px;
+    text-align: center;
 }
 
 .dashboard__item__img {
@@ -89,10 +90,12 @@
     max-width: 100%;
     margin-bottom: 1rem;
     height: auto;
+    display: flex;
 }
 
 .dashboard__item__img--rented {
     position: relative;
+    display: flex;
 }
 
 
@@ -100,6 +103,7 @@
     font-weight: 500;
     font-size: 2rem;
     margin-bottom: 2.5rem;
+    display: flex;
 }
 
 .dashboard__item__button {
@@ -115,6 +119,9 @@
 
 .dashboard__item__button--return {
     background-color: #01080E;
+    color: white;
+    cursor: pointer;
+    text-decoration: white;
 }
 
 .hachuras {
