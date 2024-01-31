@@ -69,12 +69,14 @@
     padding: 3rem;
     width: auto;
     display: inline-block;
+    cursor: auto;
 }
 
 .dashboard__items {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
+    cursor: auto;
 }
 
 .dashboard__items__item {
@@ -85,6 +87,7 @@
     font-family: 'Inter', sans-serif;
     padding: 40px;
     text-align: center;
+    cursor: auto;
 }
 
 .dashboard__item__img {
@@ -92,7 +95,8 @@
     max-width: 100%;
     margin-bottom: 1rem;
     height: auto;
-    display: flex;
+    display: flex; 
+    cursor: auto;
 }
 
 .dashboard__item__img--rented {
@@ -117,13 +121,16 @@
     min-width: 13rem;
     border-radius: 1rem;
     background-color: #d61cbd;
+    text-decoration: none;
+    cursor: none;
 }
 
 .dashboard__item__button--return {
     background-color: #01080E;
     color: white;
-    cursor: pointer;
-    text-decoration: white;
+    cursor: none;
+    text-decoration: none;
+    display: flex;
 }
 
 .hachuras {
