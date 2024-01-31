@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semanal Crossfit</title>
+    <link rel="icon" href="img/logodotitle.png">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body">
+    <main class="container main">
+        <img src="img/db.png" alt="Logo exercicios" width="250" height="200">
+        <section class="divisor">
+            <div class="divisor__line"></div>
+        </section>
+        <h1 class="page-title">Exercícios feitos <span class="page-title__emphasis">na semana</span> <img src="img/star.png" alt="estrela" class="icone-title"></h1>
+        <section class="dashboard">
+            <ul class="dashboard__items">
+                <li class="dashboard__items__item" id="exercicio-1">
+                    <div class="dashboard__item__img">
+                        <img src="img/snatch.png" alt="Snatch" width="282" height="282">
+                    </div>
+                    <p class="dashboard__item__name">Snatch</p>
+                    <a onclick="alterarStatus(1)" href="#" class="dashboard__item__button">Feito</a>
+                </li>
+                <li class="dashboard__items__item" id="exercicio-2">
+                    <div class="dashboard__item__img">
+                        <img src="img/bmu.png" alt="Bar muscle up" width="282" height="282"> 
+                    </div>
+                    <p class="dashboard__item__name">Bar Muscle Up</p>
+                    <a onclick="alterarStatus(2)" href="#" class="dashboard__item__button">Feito</a>
+                </li>
+                <li class="dashboard__items__item" id="exercicio-3">
+                    <div class="dashboard__item__img">
+                        <img src="img/wallwalk.png" alt="Wall walk" width="282" height="282">
+                    </div>
+                    <p class="dashboard__item__name">Wall Walk</p>
+                    <a onclick="alterarStatus(3)" href="#" class="dashboard__item__button">Feito</a>
+                </li>
+                <li class="dashboard__items__item" id="exercicio-4">
+                    <div class="dashboard__item__img  dashboard__item__img--rented">
+                        <img src="img/hsw.png" alt="Handstand Walk" width="282" height="282">
+                    </div>
+                    <p class="dashboard__item__name">Handstand Walk</p>
+                    <a onclick="alterarStatus(4)" href="#" class="dashboard__item__button  dashboard__item__button--return">Refazer</a>
+                </li>
+            </ul>
+        </section>
+        <img src="img/hachuras.svg" alt="Visual hachuras" class="hachuras">
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

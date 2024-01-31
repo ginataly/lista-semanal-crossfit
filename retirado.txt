@@ -1,0 +1,9 @@
+.dashboard__item__img--rented::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(1, 8, 14, 0.4);
+}
