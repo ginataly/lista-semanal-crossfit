@@ -16,9 +16,18 @@
     padding: 1rem;
 }
 
-@media screen and (min-width: 1440px) {
-    .body {
-        padding: 2rem calc((100vw - 1086px)/2);
+
+/* Media Query para tamanhos de tela de notebook */
+@media screen and (min-width: 768px) {
+    body {
+        padding: 20px; 
+    }
+}
+
+/* Media Query para tamanhos de tela de smartphone */
+@media screen and (max-width: 767px) {
+    body {
+        padding: 10px; 
     }
 }
 
@@ -122,13 +131,13 @@
     border-radius: 1rem;
     background-color: #d61cbd;
     text-decoration: none;
-    cursor: none;
+    cursor: pointer;
 }
 
 .dashboard__item__button--return {
     background-color: #01080E;
     color: white;
-    cursor: none;
+    cursor: pointer;
     text-decoration: none;
     display: flex;
 }

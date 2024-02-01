@@ -7,3 +7,10 @@
     top: 0;
     background-color: rgba(1, 8, 14, 0.4);
 }
+
+
+@media screen and (min-width: 1440px) {
+    .body {
+        padding: 2rem calc((100vw - 1086px)/2);
+    }
+}
