@@ -14,3 +14,8 @@
         padding: 2rem calc((100vw - 1086px)/2);
     }
 }
+
+no dashboar tinha     display: inline-block;
+dashboard items:
+     justify-content: space-around;
+     flex-wrap: nowrap;
